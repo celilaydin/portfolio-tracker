@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // Fetch portfolio data from backend API
-    fetch('https://portfolio-tracker-backend.azurewebsites.net/api/transactions')
+    fetch('portfolio-tracker-backend-gvadf4hwgebth2cr.centralus-01.azurewebsites.net/api/transactions')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
