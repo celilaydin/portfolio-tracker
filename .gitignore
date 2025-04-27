@@ -1,0 +1,28 @@
+# Node.js (backend) dependencies
+/node_modules
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.log
+
+# Dependency directories
+frontend/node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output directories
+frontend/build/
+backend/build/
+
+# Environment variables
+.env
+
+# Azure static web app deployment artifacts
+.azure/
